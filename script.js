@@ -18,7 +18,7 @@ window.addEventListener("DOMContentLoaded" , () => {
     const w = window.innerWidth
 
     let roulette = new Image()
-    roulette.src = './src/roulette.png'
+    roulette.src = "https://daraem.github.io/wavelength/src/roulette.png"
     
     function randomRotation() {
         return Math.floor(Math.random() * angleTop) * (Math.random() > 0.5 ? 1 : -1)
